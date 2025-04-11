@@ -4,6 +4,8 @@ import Hook from "./usestate";
 import User from "./user.js";
 import Effect from "./useEffect.js";
 import Condition from "./conditional.js";
+import UseReduce from "./usereduce.js";
+
 function App() {
   const userData = {
     name: "dhivya",
@@ -23,6 +25,8 @@ function App() {
       <Effect />
       <h2>Using Condition</h2>
       <Condition />
+      <h2>UseReduce</h2>
+      <UseReduce />
     </div>
   );
 }
